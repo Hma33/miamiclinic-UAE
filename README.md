@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Dental Clinic Website testing Fina;
 
@@ -9,3 +10,6 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# miamiclinic-UAE
+>>>>>>> 8a99c8a3fd3e11412a31dd8172036dcb773398ea
