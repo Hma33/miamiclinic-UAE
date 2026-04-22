@@ -157,10 +157,10 @@ export function DoctorDetailPage() {
                             Book Appointment
                         </a>
                         <a
-                            href="tel:043372797"
+                            href="tel:+971548883372"
                             className="inline-block px-10 py-4 border-2 border-white text-white text-sm uppercase tracking-widest hover:bg-white hover:text-[var(--color-navy)] transition-colors rounded-full font-medium"
                         >
-                            Call Us: 04-337 2797
+                            Call Us: +971 54 888 3372
                         </a>
                     </div>
                 </div>

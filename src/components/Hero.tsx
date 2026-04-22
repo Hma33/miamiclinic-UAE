@@ -64,10 +64,10 @@ export function Hero() {
               Our Services
             </a>
             <a
-              href="tel:043372797"
+              href="tel:+971548883372"
               className="inline-block px-8 py-3 border border-white bg-transparent text-white text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-colors"
             >
-              <Phone className="inline-block mr-1" /> Call (04) 337 2797
+              <Phone className="inline-block mr-1" /> Call +971 54 888 3372
             </a>
           </div>
         </div>

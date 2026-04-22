@@ -33,9 +33,9 @@ export function Info() {
                 <Phone className="w-4 h-4" />
                 Contact:
               </strong><br />
-              Landline: (04) 337 2797<br />
-              Mobile / Hotline: 054 888 3372<br />
-              WhatsApp: +971 4 337 2797<br />
+              Landline: +971 54 888 3372<br />
+              Mobile / Hotline: +971 54 888 3372<br />
+              WhatsApp: +971 54 888 3372<br />
               Email: miamigeneraldentalclinic@gmail.com
             </p>
           </div>

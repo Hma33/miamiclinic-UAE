@@ -35,10 +35,10 @@ export function ContactPage() {
                     <div>
                       <h3 className="font-semibold mb-1">Landline Phone</h3>
                       <a
-                        href="tel:043372797"
+                        href="tel:+971548883372"
                         className="text-lg hover:opacity-70 transition-opacity"
                       >
-                        (04) 337 2797
+                        +971 54 888 3372
                       </a>
                     </div>
                   </div>
@@ -51,10 +51,10 @@ export function ContactPage() {
                     <div>
                       <h3 className="font-semibold mb-1">Mobile / Hotline</h3>
                       <a
-                        href="tel:0548883372"
+                        href="tel:+971548883372"
                         className="text-lg hover:opacity-70 transition-opacity"
                       >
-                        054 888 3372
+                        +971 54 888 3372
                       </a>
                     </div>
                   </div>
