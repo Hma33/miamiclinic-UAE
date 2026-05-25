@@ -244,9 +244,9 @@ export function ArticleDetailPage() {
                 schemaData={schemaData}
               />
               
-              <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+              <div className="w-full">
                 {/* Main Content Column */}
-                <div className="lg:col-span-8">
+                <div className="w-full">
                   <article className="animate-in fade-in slide-in-from-bottom-4 duration-700">
                     <header className="mb-12">
                       <h1 className="text-4xl md:text-5xl font-medium text-[var(--color-navy)] leading-tight mb-8">
@@ -264,11 +264,9 @@ export function ArticleDetailPage() {
                       )}
                     </header>
 
-                    {/* Mobile collapsible index - positioned right before the first text block */}
+                    {/* Collapsible Article Index */}
                     {headings.length > 0 && (
-                      <div className="lg:hidden">
-                        <TableOfContents headings={headings} />
-                      </div>
+                      <TableOfContents headings={headings} />
                     )}
 
                     <div className="prose prose-lg max-w-none">
@@ -276,13 +274,6 @@ export function ArticleDetailPage() {
                     </div>
                   </article>
                 </div>
-
-                {/* Desktop Sidebar Column */}
-                {headings.length > 0 && (
-                  <aside className="hidden lg:block lg:col-span-4">
-                    <TableOfContents headings={headings} />
-                  </aside>
-                )}
               </div>
             </>
           )}
