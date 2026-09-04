@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logo from "figma:asset/a7ba9f18a8f061a44ce6e9a4a2dbdea2acdad83e.png";
+import logo from '../assets/logo.png';
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

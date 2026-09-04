@@ -1,0 +1,2 @@
+- Updated header import to use local logo
+- Added src/assets/logo.png (replacement logo provided by user)
