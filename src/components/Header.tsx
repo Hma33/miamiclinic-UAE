@@ -20,7 +20,7 @@ export function Header() {
                 <img
                   src="/logo.png"
                   alt="Miami Dubai Clinic"
-                  className="h-23 w-auto"
+                  className="h-32 md:h-40 w-auto"
                 />
               </Link>
             </div>
@@ -100,7 +100,7 @@ export function Header() {
                 <img
                   src="/logo.png"
                   alt="Miami Dubai Clinic"
-                  className="h-23 w-auto"
+                  className="h-24 md:h-32 w-auto"
                 />
               </Link>
             </div>
