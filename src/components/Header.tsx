@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/logo.png';
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -19,7 +18,7 @@ export function Header() {
             <div>
               <Link to="/">
                 <img
-                  src={logo}
+                  src="/logo.png"
                   alt="Miami Dubai Clinic"
                   className="h-23 w-auto"
                 />
@@ -99,7 +98,7 @@ export function Header() {
             <div>
               <Link to="/" onClick={closeMenu}>
                 <img
-                  src={logo}
+                  src="/logo.png"
                   alt="Miami Dubai Clinic"
                   className="h-23 w-auto"
                 />

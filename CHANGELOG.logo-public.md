@@ -1,0 +1,2 @@
+- Moved logo to public/ and switched Header to use an absolute path (/logo.png) so the image is served reliably at runtime and by static hosts
+- Updated ArticleDetailPage JSON-LD to reference /logo.png for consistent SEO sharing
